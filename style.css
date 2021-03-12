@@ -166,3 +166,13 @@ body {
   border-color: #e4b43c;
   background: #e4b43c;
 }
+
+/* footer */
+.footer {
+  background-color: #333333;
+  color: #d0d0d0;
+  text-align: center;
+  font-size: 14px;
+  width: 100%;
+  padding: 40px 0;
+}
