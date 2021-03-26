@@ -60,6 +60,10 @@ main {
   margin-right: 60px;
 }
 
+.header__nav-item_active {
+  color: #d33e3e;
+}
+
 /* section-hero */
 .section-hero {
   background-image: url(images/hero.jpeg);
