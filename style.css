@@ -2,8 +2,18 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 /* header */
@@ -169,6 +179,7 @@ body {
 
 /* footer */
 .footer {
+  flex-shrink: 0;
   background-color: #333333;
   color: #d0d0d0;
   text-align: center;
